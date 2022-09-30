@@ -43,7 +43,7 @@ That's all you need. 😉
 
 ## Features
 
-### Electron [![Electron version](https://img.shields.io/github/package-json/dependency-version/HermanLederer/vite-electron-builder-svelte/dev/electron?label=%20)][electron]
+### Electron [![Electron version](https://img.shields.io/github/package-json/dependency-version/rafael-rozas/electron-svelte-vite/dev/electron?label=%20)][electron]
 - This template uses the latest electron version with all the latest security patches.
 - The architecture of the application is built according to the security [guides](https://www.electronjs.org/docs/tutorial/security) and best practices.
 - The latest version of the [electron-builder] is used to compile the application.
