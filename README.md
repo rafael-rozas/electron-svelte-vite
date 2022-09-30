@@ -48,7 +48,7 @@ That's all you need. 😉
 - The architecture of the application is built according to the security [guides](https://www.electronjs.org/docs/tutorial/security) and best practices.
 - The latest version of the [electron-builder] is used to compile the application.
 
-### Vite [![Vite version](https://img.shields.io/github/package-json/dependency-version/HermanLederer/vite-electron-builder-svelte/dev/vite?label=%20)][vite]
+### Vite [![Vite version](https://img.shields.io/github/package-json/dependency-version/rafael-rozas/electron-svelte-vite/dev/vite?label=%20)][vite]
 
 - [Vite] is used to bundle all source codes. This is an extremely fast packer that has a bunch of great features. You can learn more about how it is arranged in [this](https://youtu.be/xXrhg26VCSc) video.
 - Vite [supports](https://vitejs.dev/guide/env-and-mode.html) reading `.env` files. You can also specify types of your environment variables in [`types/env.d.ts`](types/env.d.ts).
@@ -58,14 +58,14 @@ Vite provides many useful features, such as: `TypeScript`, `TSX/JSX`, `CSS/JSON 
 
 [See all Vite features](https://vitejs.dev/guide/features.html).
 
-### TypeScript [![TypeScript version](https://img.shields.io/github/package-json/dependency-version/HermanLederer/vite-electron-builder-svelte/dev/typescript?label=%20)][typescript] (optional)
+### TypeScript [![TypeScript version](https://img.shields.io/github/package-json/dependency-version/rafael-rozas/electron-svelte-vite/dev/typescript?label=%20)][typescript] (optional)
 - The latest version of TypeScript is used for all the source code.
 - **Vite** supports TypeScript out of the box. However, it does not support type checking.
 - Code formatting rules follow the latest TypeScript recommendations and best practices thanks to [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin).
 
 **[See this discussion](https://github.com/cawa-93/vite-electron-builder/discussions/339)** if you want completely remove TypeScript.
 
-### Svelte [![Svelte version](https://img.shields.io/github/package-json/dependency-version/HermanLederer/vite-electron-builder-svelte/svelte?label=%20)][svelte]
+### Svelte [![Svelte version](https://img.shields.io/github/package-json/dependency-version/rafael-rozas/electron-svelte-vite/svelte?label=%20)][svelte]
 - By default, web pages are built using [Sveltee]. If you would like to use a different framework I recommend basing it on the [original repo](https://github.com/cawa-93/vite-electron-builder).
 - Code formatting rules follow the latest Svelte recommendations and best practices thanks to [eslint-plugin-svelte].
 
@@ -74,7 +74,7 @@ See [examples of web pages for different frameworks](https://github.com/vitejs/v
 ### Continuous Integration
 - The configured workflow will check the types for each push and PR.
 - The configured workflow will check the code style for each push and PR.
-- **Automatic tests** used [Vitest ![Vitest version](https://img.shields.io/github/package-json/dependency-version/cawa-93/vite-electron-builder/dev/vitest?label=%20&color=yellow)][vitest] -- A blazing fast test framework powered by Vite.
+- **Automatic tests** used [Vitest ![Vitest version](https://img.shields.io/github/package-json/dependency-version/rafael-rozas/electron-svelte-vite/dev/vitest?label=%20&color=yellow)][vitest] -- A blazing fast test framework powered by Vite.
   - Unit tests are placed within each package and run separately.
   - End-to-end tests are placed in the root [`tests`](tests) directory and use [playwright].
 
