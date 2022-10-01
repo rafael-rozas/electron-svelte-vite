@@ -16,10 +16,12 @@
     "sourceType": "module"
   },
   "plugins": [
+    "eslint-plugin-svelte3",
     "@typescript-eslint"
   ],
   "ignorePatterns": [
     "packages/preload/exposedInMainWorld.d.ts",
+    "packages/renderer/**",
     "node_modules/**",
     "**/dist/**"
   ],
@@ -34,7 +36,7 @@
      * @see https://twitter.com/alex_kozack/status/1364210394328408066
      */
     "semi": [
-      "error",
+      "warn",
       "always"
     ],
     /**

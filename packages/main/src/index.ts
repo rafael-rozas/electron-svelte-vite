@@ -1,5 +1,6 @@
 import {app} from 'electron';
 import './security-restrictions';
+import './ipc';
 import {restoreOrCreateWindow} from '/@/mainWindow';
 
 
@@ -40,21 +41,6 @@ app.on('activate', restoreOrCreateWindow);
 app.whenReady()
   .then(restoreOrCreateWindow)
   .catch((e) => console.error('Failed create window:', e));
-
-
-/**
- * Install Vue.js or some other devtools in development mode only
- */
-// if (import.meta.env.DEV) {
-//   app.whenReady()
-//     .then(() => import('electron-devtools-installer'))
-//     .then(({default: installExtension, VUEJS3_DEVTOOLS}) => installExtension(VUEJS3_DEVTOOLS, {
-//       loadExtensionOptions: {
-//         allowFileAccess: true,
-//       },
-//     }))
-//     .catch(e => console.error('Failed install extension:', e));
-// }
 
 /**
  * Check new app version in production mode only

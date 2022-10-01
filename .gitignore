@@ -51,6 +51,7 @@ thumbs.db
 
 # File-based project format
 *.iws
+.env
 
 # Editor-based Rest Client
 .idea/httpRequests
